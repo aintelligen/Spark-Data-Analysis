@@ -8,6 +8,7 @@
 #
 #     http://www.apache.org/licenses/LICENSE-2.0
 #
+#
 # Unless required by applicable law or agreed to in writing, software
 # distributed under the License is distributed on an "AS IS" BASIS,
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -25,7 +26,6 @@
 #export JAVA_HOME=${JAVA_HOME}
 
 export JAVA_HOME=/home/hadoop/app/jdk1.8.0_91
-
 
 # The jsvc implementation to use. Jsvc is required to run secure datanodes
 # that bind to privileged ports to provide authentication of data transfer
