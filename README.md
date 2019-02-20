@@ -174,7 +174,10 @@
 
 ## 第3章 Spark Core核心RDD 
  https://github.com/apache/spark
+Resilient Distributed Dataset (RDD)  弹性 分布式 数据集
 
+Represents an immutable, partitioned collection of elements that can be operated on in parallel
+不可变 并行操作
 
 ## 第4章 Spark Core RDD编程  
 ## 第5章 Spark运行模式  
