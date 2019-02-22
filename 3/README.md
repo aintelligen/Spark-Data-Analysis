@@ -91,6 +91,27 @@ distData.saveAsTextFile("file:///home/hadoop/data/output/")
 
 ### 开发pyspark 应用程序
 1) IDEA pycharm
+2) 新建 hello.py  运行   环境搭建
+edit configurations
+Evnironment variables   添加 
+PYTHONPATH  D:\github\Spark-Data-Analysis\pyspark\spark\spark-2.3.3-bin-hadoop2.6\python
+SPARK_HOME  D:\github\Spark-Data-Analysis\pyspark\spark\spark-2.3.3-bin-hadoop2.6\
+interceptor D:\github\Spark-Data-Analysis\pyspark\spark\spark-2.3.3-bin-hadoop2.6\python\lib  2zip包
+
+
+终端 192.168.10.92
+
+```shell
+mkdir ~/script
+删除 master  appname
+vi spark0301.py
+cd app/spark-2.3.0-bin-2.6.0-cdh5.7.0/bin
+提交pyspark应用程序
+./spark-submit --master local[2] --name spark0301 --py /home/hadoop/script/spark0301.py
+
+
+```
+
 
 
 
