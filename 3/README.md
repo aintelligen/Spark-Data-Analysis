@@ -107,7 +107,7 @@ mkdir ~/script
 vi spark0301.py
 cd app/spark-2.3.0-bin-2.6.0-cdh5.7.0/bin
 提交pyspark应用程序
-./spark-submit --master local[2] --name spark0301 --py /home/hadoop/script/spark0301.py
+./spark-submit --master local[2] --name spark0301 --py /home/hadoop/script/spark0301.py  file:///home/hadoop/script/wc/*.txt
 
 
 ```
