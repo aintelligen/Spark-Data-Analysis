@@ -159,6 +159,7 @@
     编译spark
     ./dev/make-distribution.sh --name custom-spark --pip --r --tgz -Psparkr -Phadoop-2.7 -Phive -Phive-thriftserver -Pmesos -Pyarn -Pkubernetes
 
+    编译文件
     make-distribution.sh --name 2.6.0-cdh5.7.0 --tgz -Pyarn -Phadoop-2.6 -Phive -Phive-thriftserver -Dhadoop.version=2.6.0-cdh5.7.0
 
     解压到 app/
@@ -170,7 +171,8 @@
 
 
   ```
-  
+  虚拟机hosts: sudo vi /etc/hosts
+  本地hosts  C:\Windows\System32\drivers\etc
   最简单做法：修改虚拟机host；启动 hadoop 和 spark
 
 ## 第3章 Spark Core核心RDD 

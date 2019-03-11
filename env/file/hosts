@@ -18,7 +18,7 @@
 
 # localhost name resolution is handled within DNS itself.
 127.0.0.1       localhost
-192.168.10.92   hadoop000
+192.168.1.153  hadoop000
 127.0.0.1       hadoop
 #	::1             localhost
 0.0.0.0         account.jetbrains.com
